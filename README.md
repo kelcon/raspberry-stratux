@@ -11,6 +11,8 @@ export PATH=$PATH:/usr/local/go/bin
 export GOROOT=/usr/local/go
 ```
 
-* librtlsdr installation: https://github.com/cyoung/stratux/issues/628 (solution from comment: scottbyrns commented on 25 Jun)
+* librtlsdr installation: 
+https://github.com/cyoung/stratux/issues/628 (solution from comment: scottbyrns commented on 25 Jun)
+https://github.com/jpoirier/librtlsdr
 * tutorial for stratux: https://www.reddit.com/r/stratux/comments/3v9vsr/howto_building_stratux_from_source/ (excluding libsrtlsdr part)
 * kiosk mode: ...
