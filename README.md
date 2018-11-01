@@ -14,5 +14,5 @@ export GOROOT=/usr/local/go
 * librtlsdr installation: 
 https://github.com/cyoung/stratux/issues/628 (solution from comment: scottbyrns commented on 25 Jun)
 https://github.com/jpoirier/librtlsdr
-* tutorial for stratux: https://www.reddit.com/r/stratux/comments/3v9vsr/howto_building_stratux_from_source/ (excluding libsrtlsdr part)
+* tutorial for stratux: https://www.reddit.com/r/stratux/comments/3v9vsr/howto_building_stratux_from_source/ (excluding libsrtlsdr part, which points to incorrect repo)
 * kiosk mode: ...
