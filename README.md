@@ -35,4 +35,4 @@ make static
 sudo make install-static
 ```
 * tutorial for stratux: https://www.reddit.com/r/stratux/comments/3v9vsr/howto_building_stratux_from_source/ (excluding libsrtlsdr part, which points to incorrect repo)
-* kiosk mode: ...
+* kiosk mode: https://blog.gordonturner.com/2017/07/22/raspberry-pi-full-screen-browser-raspbian-july-2017/
