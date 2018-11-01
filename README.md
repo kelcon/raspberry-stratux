@@ -42,3 +42,6 @@ export CGO_CFLAGS_ALLOW=-L/root/stratux
 ```
 
 * kiosk mode: https://blog.gordonturner.com/2017/07/22/raspberry-pi-full-screen-browser-raspbian-july-2017/
+```
+sudo apt-get install matchbox-keyboard
+```
