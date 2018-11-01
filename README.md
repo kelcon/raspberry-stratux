@@ -21,7 +21,7 @@ git clone https://github.com/jpoirier/librtlsdr.git
 cd librtlsdr/
 mkdir build
 cd build
-cmake ../
+cmake ../ -DINSTALL_UDEV_RULES=ON -DDETACH_KERNEL_DRIVER=ON
 make
 sudo make install
 sudo ldconfig
@@ -34,5 +34,11 @@ cd WiringPi/wiringPi
 make static 
 sudo make install-static
 ```
+
+
 * tutorial for stratux: https://www.reddit.com/r/stratux/comments/3v9vsr/howto_building_stratux_from_source/ (excluding libsrtlsdr part, which points to incorrect repo)
+```
+export CGO_CFLAGS_ALLOW=-L/root/stratux
+```
+
 * kiosk mode: https://blog.gordonturner.com/2017/07/22/raspberry-pi-full-screen-browser-raspbian-july-2017/
