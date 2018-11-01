@@ -47,3 +47,7 @@ apt-get install hostapd
 apt-get install dhcpd
 ```
 
+* single dongle config: /etc/stratux.conf (disabled uat)
+```
+{"UAT_Enabled":false,"ES_Enabled":true,"Ping_Enabled":false,"GPS_Enabled":true,"BMP_Sensor_Enabled":true,"IMU_Sensor_Enabled":true,"NetworkOutputs":[{"Conn":null,"Ip":"","Port":4000,"Capability":5,"MessageQueueLen":0,"LastUnreachable":"0001-01-01T00:00:00Z","SleepFlag":false,"FFCrippled":false}],"SerialOutputs":null,"DisplayTrafficSource":false,"DEBUG":false,"ReplayLog":false,"AHRSLog":false,"IMUMapping":[-1,0],"SensorQuaternion":[0,0,0,0],"C":[0,0,0],"D":[0,0,0],"PPM":0,"OwnshipModeS":"F00000","WatchList":"","DeveloperMode":false,"GLimits":"","StaticIps":[],"WiFiSSID":"stratux","WiFiChannel":1,"WiFiSecurityEnabled":false,"WiFiPassphrase":""}
+```
