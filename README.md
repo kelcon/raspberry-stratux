@@ -25,7 +25,10 @@ cmake ../
 make
 sudo make install
 sudo ldconfig
+```
+* wiringPi (using for as original repo does not allow to build static)
 
+```
 git clone https://github.com/BPI-SINOVOIP/BPI-WiringPi2
 cd WiringPi/wiringPi 
 make static 
