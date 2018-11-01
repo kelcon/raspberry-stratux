@@ -25,6 +25,11 @@ cmake ../
 make
 sudo make install
 sudo ldconfig
+
+git clone https://github.com/BPI-SINOVOIP/BPI-WiringPi2
+cd WiringPi/wiringPi 
+make static 
+sudo make install-static
 ```
 * tutorial for stratux: https://www.reddit.com/r/stratux/comments/3v9vsr/howto_building_stratux_from_source/ (excluding libsrtlsdr part, which points to incorrect repo)
 * kiosk mode: ...
